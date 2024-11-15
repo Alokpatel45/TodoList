@@ -1,0 +1,57 @@
+/* Parent container with padding and shadow */
+.parent {
+    background: linear-gradient(to right, #fcb7d1, #a2b6ff); /* Light Pink to Lavender */
+    border-radius: 10px;
+    padding: 20px; /* Adds spacing inside the container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    max-width: 1000px; /* Optional: Limits the width */
+    margin: 20px auto; /* Centers the container */
+    color: darkslategray; /* Text color for better readability */
+    text-align: center; /* Centers the text content */
+}
+
+/* Optional: Add some hover effect */
+.parent:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Slightly more shadow on hover */
+    transform: scale(1.02); /* Slightly enlarge on hover */
+    transition: all 0.3s ease; /* Smooth transition effect */
+}
+
+/* Button with improved hover effects and padding */
+.button {
+    left: 50%;
+    margin: 20px;
+    display: inline-block; /* Makes it a block-level element */
+    padding: 10px 20px; /* Adds space inside the button */
+    font-size: 16px; /* Readable text size */
+    font-weight: 600; /* Bold text */
+    color: #ffffff; /* White text */
+    background-color: #4caf50; /* Green background */
+    border: none; /* Removes default border */
+    border-radius: 8px; /* Smooth rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: all 0.3s ease; /* Smooth hover effect */
+}
+
+/* Hover state */
+.button:hover {
+    background-color: #45a049; /* Slightly darker green */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); /* More pronounced shadow */
+    transform: translateY(-2px); /* Slight "lift" effect */
+}
+
+/* Active state */
+.button:active {
+    background-color: #3e8e41; /* Even darker green */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Reduced shadow */
+    transform: translateY(2px); /* "Pressed" effect */
+}
+
+/* Disabled state */
+.button:disabled {
+    background-color: #bdbdbd; /* Gray background */
+    color: #6a6a6a; /* Muted text color */
+    cursor: not-allowed; /* Not-allowed cursor */
+    box-shadow: none; /* No shadow */
+}

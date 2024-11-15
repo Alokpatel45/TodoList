@@ -1,0 +1,80 @@
+#title{
+    width: 100%; /* Full-width */
+    padding: 10px 15px; /* Space inside the input */
+    border: 2px solid #d3c4f3; /* Lavender border */
+    border-radius: 8px; /* Rounded corners */
+    background-color: #f9f9fc; /* Subtle background */
+    font-size: 16px; /* Readable font size */
+    color: #4a4a4a; /* Dark gray text */
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle inner shadow */
+    outline: none; /* Removes default outline */
+    transition: all 0.3s ease; /* Smooth transitions */
+}
+#title:focus {
+    border-color: #a2b6ff; /* Light lavender on focus */
+    background-color: #ffffff; /* White background on focus */
+    box-shadow: 0 0 5px rgba(162, 182, 255, 0.5); /* Glow effect */
+}
+
+/* Hover effect for the input */
+#title:hover {
+    border-color: #b8a1f7; /* Slightly darker lavender on hover */
+}
+#desc{
+    width: 100%; /* Full-width */
+    padding: 10px 15px; /* Space inside the input */
+    border: 2px solid #d3c4f3; /* Lavender border */
+    border-radius: 8px; /* Rounded corners */
+    background-color: #f9f9fc; /* Subtle background */
+    font-size: 16px; /* Readable font size */
+    color: #4a4a4a; /* Dark gray text */
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle inner shadow */
+    outline: none; /* Removes default outline */
+    transition: all 0.3s ease; /* Smooth transitions */
+}
+#desc:focus {
+    border-color: #a2b6ff; /* Light lavender on focus */
+    background-color: #ffffff; /* White background on focus */
+    box-shadow: 0 0 5px rgba(162, 182, 255, 0.5); /* Glow effect */
+}
+
+/* Hover effect for the input */
+#desc:hover {
+    border-color: #b8a1f7; /* Slightly darker lavender on hover */
+}
+.button {
+    /* margin-left: 50%; */
+    display: inline-block; /* Makes it a block-level element */
+    padding: 10px 20px; /* Adds space inside the button */
+    font-size: 16px; /* Readable text size */
+    font-weight: 600; /* Bold text */
+    color: #ffffff; /* White text */
+    background-color: #4caf50; /* Green background */
+    border: none; /* Removes default border */
+    border-radius: 8px; /* Smooth rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: all 0.3s ease; /* Smooth hover effect */
+}
+
+/* Hover state */
+.button:hover {
+    background-color: #45a049; /* Slightly darker green */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); /* More pronounced shadow */
+    transform: translateY(-2px); /* Slight "lift" effect */
+}
+
+/* Active state */
+.button:active {
+    background-color: #3e8e41; /* Even darker green */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Reduced shadow */
+    transform: translateY(2px); /* "Pressed" effect */
+}
+
+/* Disabled state */
+.button:disabled {
+    background-color: #bdbdbd; /* Gray background */
+    color: #6a6a6a; /* Muted text color */
+    cursor: not-allowed; /* Not-allowed cursor */
+    box-shadow: none; /* No shadow */
+}
